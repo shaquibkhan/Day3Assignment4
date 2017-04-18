@@ -1,0 +1,42 @@
+</html><!DOCTYPE html>
+<html>
+<head>
+	<title>image</title>
+	<style type="text/css">
+		.s1{color: red;}
+		.s2{color: powderblue;}
+		.s3{color: springgreen;}
+		.s4{color: gold;}
+		.s5{color: gray;}
+		.s6{color: plum;}
+		#p1{
+			color: forestgreen;			/* color & font-size has been done on p1 id attribute of p tag..  */
+			font-size: 50px;
+		}
+		#h1{
+		
+			color: gold;				/* some color & font-size styling has been done on h1 tag whose id attribute is also h1 */
+			font-size: 130px;
+		}
+		img{
+			position: absolute;  		/* absolute positioned has been done on img tag just to come img tag behind the text  */
+		}
+		#seconddiv{
+			padding-top: 240px;			/* padding has done on h1 & p tag of second div just to avoid some overlapping from image tag so it could come just under the image tag */
+		}
+	</style>
+</head>
+<body>
+					<div id="firstdiv">     <!-- its a div element which is just given to keep in mind that img & h1 tag are within this...-->
+					<img src="acadgild.jpg" width="500" height="500">
+					<h1 id="h1">ACADGILD &nbsp ACADGILD</h1>
+					</div>
+
+									<div id="seconddiv">		<!-- its a second div whose id attribute is set as d2 to do some styling...this div element contains 2 tag i.e.h1 & p -->
+
+									<h1 id="h2"><span class="s1">LEARN</span>. <span class="s2">DO</span>. <span class="s3">EARN</span> <span class="s4">LEARN</span>. <span class="s5">DO</span>. <span class="s6">EARN</span></h1>  <!-- span tag  has class attribute s1 to s6 is given on each word of this sentence just to give different shades over each word. -->
+
+									<p id="p1">Learn the Latest Technologies from Experts with 24x7 Coding Support</p> <!-- its a simple para whic has id attribute p1 to do some styling -->
+									</div>
+</body>
+</html>
